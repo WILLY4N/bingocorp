@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bingo Corporativo</title>
+</head>
+<body>
+    <link rel="stylesheet" href="css/body.css"/>
+    <h1>Bem-vindo(a) ao BINGO CORP.</h1>
+    <h3>Sobreviva àquela super reunião na firma. Divirta-se!</h3>
+    <div><br></div>
+    
+    <div>
+        <table class="table">
+            <link rel="stylesheet" href="css/table.css"/>
+            <script type="text/javascript" src="js/cartela.js"></script>
+            <script type="text/javascript" src="js/marcarCartela.js"></script>
+
+            <tr>
+                <th>B</th><th>I</th><th>N</th><th>G</th><th>O</th>
+            </tr>
+            <tr><!--Linha 01-->
+                <td>
+                    <button type="button" id="bt01" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt01").innerHTML = cartela[0];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt02" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt02").innerHTML = cartela[1];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt03" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt03").innerHTML = cartela[2];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt04" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt04").innerHTML = cartela[3];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt05" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt05").innerHTML = cartela[4];
+                        </script>
+                    </button>
+                </td>
+            </tr>
+            <tr><!--Linha 02-->
+                <td>
+                    <button type="button" id="bt06" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt06").innerHTML = cartela[5];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt07" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt07").innerHTML = cartela[6];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt08" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt08").innerHTML = cartela[7];
+                        </script>                    
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt09" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt09").innerHTML = cartela[8];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt10" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt10").innerHTML = cartela[9];
+                        </script>
+                  </button>
+                </td>
+            </tr>
+            <tr><!--Linha 03-->
+                <td>
+                    <button type="button" id="bt11" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt11").innerHTML = cartela[10];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt12" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt12").innerHTML = cartela[11];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="btBingo">
+                    <img src="imgs/bc_button.png" alt="Bingo Corp.">
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt13" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt13").innerHTML = cartela[12];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt14" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt14").innerHTML = cartela[13];
+                        </script>
+                    </button>
+                </td>
+            </tr>
+            <tr><!--Linha 04-->
+                <td>
+                    <button type="button" id="bt15" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt15").innerHTML = cartela[14];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt16" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt16").innerHTML = cartela[15];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt17" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt17").innerHTML = cartela[16];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt18" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt18").innerHTML = cartela[17];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt19" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt19").innerHTML = cartela[18];
+                        </script>
+                    </button>
+                </td>
+            </tr>
+            <tr><!--Linha 05-->
+                <td>
+                    <button type="button" id="bt20" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt20").innerHTML = cartela[19];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt21" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt21").innerHTML = cartela[20];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt22" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt22").innerHTML = cartela[21];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt23" onclick="marcado()">
+                        <script>
+                            document.getElementById("bt23").innerHTML = cartela[22];
+                        </script>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" id="bt24" onclick="marcado()">
+                        <script>
+                        document.getElementById("bt24").innerHTML = cartela[23];
+                        </script>
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <footer> <link rel="stylesheet" href="css/footer.css"/>
+        <script type="text/javascript" src="js/cartela.js"></script>
+        <h4>
+            Bingo Corp. | <a href="http://www.bitan.com.br" target="_blank"> Bitan Tecnologia </a>
+        </h4>
+        
+       <!--<p id="demo"></p>
+        <script>
+            document.getElementById("demo").innerHTML = cartela.length;
+        </script>-->
+        
+    </footer>
+
+</body>
+</html>
